@@ -1,0 +1,108 @@
+
+/* Fond + police globale */
+body {
+    background-color: #27F5F2;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Menu placé en haut et centré */
+nav {
+    position: sticky; /* reste en haut si on scrolle */
+    top: 0;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 14px 10px;
+
+ text-align: center;
+    backdrop-filter: blur(4px);
+}
+
+/* Liens du menu : couleurs demandées */
+nav a {
+    text-decoration: none;
+    color: #FFFFFF;        /* liens */
+    margin: 0 18px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav a:visited {
+    color: #F5BE27;        /* liens visités */
+
+}
+
+nav a:hover {
+    color: #F527EE;        /* liens survolés */
+}
+
+/* Titres centrés */
+h1, h2 {
+    text-align: center;
+    color: #000;
+}
+
+/* Conteneurs utiles */
+.container {
+
+ text-align: center;
+    margin: 20px auto;
+    max-width: 1100px;
+    padding: 0 12px;
+}
+
+/* Grille d’images responsive */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+    align-items: start;
+}
+
+.gallery img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,.15);
+}
+
+/* Boutons audio */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin: 10px 0 22px;
+
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-size: 16px;
+    cursor: pointer;
+    background: #111;
+    color: #fff;
+}
+
+button:hover {
+    background: #333;
+}
+
+* Conteneur vidéos YouTube */
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 18px;
+}
+
+.video-grid iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9; /* garde les proportions */
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,.15);
+}
+
+
