@@ -1,0 +1,47 @@
+
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <title>Livres</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Accueil</a>
+    <a href="basket.html">Basket</a>
+    <a href="livres.html">Livres</a>
+
+</nav>
+
+<main class="container">
+    <h1>Les Livres</h1>
+
+    <h2>Quelques photos</h2>
+    <section class="gallery">
+        <img src="https://images.unsplash.com/photo-1516979187457-637abb4f9353?q=80&w=1200&auto=format&fit=crop"
+             alt="Livres ouverts et empilés" />
+        <img src="https://images.unsplash.com/photo-1528207776546-365bb710ee93?q=80&w=1200&auto=format&fit=crop"
+
+ alt="Rayonnages de bibliothèque" />
+        <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=1200&auto=format&fit=crop"
+             alt="Collection de livres sur une étagère" />
+    </section>
+
+    <h2>Vidéos (YouTube)</h2>
+    <section class="video-grid">
+        <iframe src="https://www.youtube.com/embed/KNlZ6lJ7kYs"
+                title="Pourquoi lire ?"></iframe>
+
+        <iframe src="https://www.youtube.com/embed/sTnLafBxG44"
+                title="Conseils pour lire plus"></iframe>
+    </section>
+
+</main>
+
+</body>
+</html>
+
